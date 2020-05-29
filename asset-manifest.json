@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/weather-project/static/css/main.fe26b460.chunk.css",
+    "main.js": "/weather-project/static/js/main.6c0c16b6.chunk.js",
+    "main.js.map": "/weather-project/static/js/main.6c0c16b6.chunk.js.map",
+    "runtime-main.js": "/weather-project/static/js/runtime-main.065b3060.js",
+    "runtime-main.js.map": "/weather-project/static/js/runtime-main.065b3060.js.map",
+    "static/js/2.bd740d8d.chunk.js": "/weather-project/static/js/2.bd740d8d.chunk.js",
+    "static/js/2.bd740d8d.chunk.js.map": "/weather-project/static/js/2.bd740d8d.chunk.js.map",
+    "index.html": "/weather-project/index.html",
+    "precache-manifest.35c08c20ecaa6e83e9c251825d5eff7b.js": "/weather-project/precache-manifest.35c08c20ecaa6e83e9c251825d5eff7b.js",
+    "service-worker.js": "/weather-project/service-worker.js",
+    "static/css/main.fe26b460.chunk.css.map": "/weather-project/static/css/main.fe26b460.chunk.css.map",
+    "static/js/2.bd740d8d.chunk.js.LICENSE.txt": "/weather-project/static/js/2.bd740d8d.chunk.js.LICENSE.txt",
+    "static/media/Backgrounds.css": "/weather-project/static/media/Odessa.d93aa828.jpg",
+    "static/media/Tornado_hurricane.png": "/weather-project/static/media/Tornado_hurricane.ede75f3f.png",
+    "static/media/drops.png": "/weather-project/static/media/drops.367489fd.png",
+    "static/media/dust.png": "/weather-project/static/media/dust.ab86ac06.png",
+    "static/media/few_clouds.png": "/weather-project/static/media/few_clouds.1a3b1593.png",
+    "static/media/freezing_rain.png": "/weather-project/static/media/freezing_rain.965574c3.png",
+    "static/media/medium_clouds.png": "/weather-project/static/media/medium_clouds.dd4ed0fc.png",
+    "static/media/mist.png": "/weather-project/static/media/mist.1127f101.png",
+    "static/media/rain_heavy.png": "/weather-project/static/media/rain_heavy.f01eaa6c.png",
+    "static/media/rain_light.png": "/weather-project/static/media/rain_light.07affcde.png",
+    "static/media/rain_very_heavy.png": "/weather-project/static/media/rain_very_heavy.0c16f496.png",
+    "static/media/snow.png": "/weather-project/static/media/snow.4bd2e52a.png",
+    "static/media/sun.png": "/weather-project/static/media/sun.ae22d797.png",
+    "static/media/sun1.png": "/weather-project/static/media/sun1.e3e30ba6.png",
+    "static/media/temp.png": "/weather-project/static/media/temp.762a3667.png",
+    "static/media/thunderstorm.png": "/weather-project/static/media/thunderstorm.1b53fb21.png",
+    "static/media/very_clouds.png": "/weather-project/static/media/very_clouds.ad47f83c.png",
+    "static/media/wind.png": "/weather-project/static/media/wind.839a9df8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.065b3060.js",
+    "static/js/2.bd740d8d.chunk.js",
+    "static/css/main.fe26b460.chunk.css",
+    "static/js/main.6c0c16b6.chunk.js"
+  ]
+}
