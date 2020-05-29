@@ -1,0 +1,13 @@
+.weather {
+    margin-top: 80px;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.h3 {
+    font-weight: 300;
+    margin: 60px 0;
+    font-size: 30px;
+}

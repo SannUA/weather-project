@@ -1,0 +1,43 @@
+.onePic {
+     text-align: center;
+     font-size: 120px;
+     width: 25%;
+     float: left;
+     position: relative;
+     min-height: 1px;
+     padding-right: 15px;
+     padding-left: 15px;
+}
+
+.spinner {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    position: relative; 
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 43%;
+}
+
+
+.par {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.pics {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    height: 120px;
+}
