@@ -1,12 +1,36 @@
+@media (min-width: 970px) {
+ .onePic {
+    text-align: center;
+    font-size: 120px;
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+ }
+}
+
 .onePic {
-     text-align: center;
-     font-size: 120px;
-     width: 25%;
-     float: left;
-     position: relative;
-     min-height: 1px;
-     padding-right: 15px;
-     padding-left: 15px;
+    margin: auto;
+    text-align: center;
+    font-size: 120px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+     
+}
+
+.onePicError {
+    text-align: center;
+    font-size: 25px;
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .spinner {

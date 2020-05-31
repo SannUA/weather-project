@@ -7,7 +7,7 @@ import './OnePic.css';
 const OnePicWind = (props) => {
     let content
     if (props.error) {
-        content = <div>Ошибка: {props.error.message}</div>;
+        content = <div className='onePicError'>Error: {props.error.message}</div>;
       } else if (!props.isLoaded) {
         content =  <Spinner animation="border" className='spinner'/>;
       } else {content = <p className='par'>{props.wind}m/s</p>}

@@ -20,9 +20,8 @@ const WeekForecastEach = (props) => {
     if (eachDateOfWeek > 28 && months[month] === "Feb") { 
           month += 1;
           eachDateOfWeek -= 28} 
-    
+
     return(<div className='each'>
-        
 <h2 className ='date'>{eachDateOfWeek + ' ' + months[month]}</h2>
 <Image idOfWeatherIcon={props.idOfWeatherIcon}/>
 {/* <img src={sun} alt='sun' className='littlePic'/> */}

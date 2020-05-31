@@ -67,13 +67,16 @@ class WeekForecast extends React.Component {
         
     render() {
         let content;
-        if (this.state.isLoaded) {content = this.state.APIData.map((each, i) => {
+        if (this.state.isLoaded && !this.state.error) {content = this.state.APIData.map((each, i) => {
                                     return <WeekForecastEach maxTemp={each.temp.max} 
                                                              minTemp={each.temp.min} 
                                                              description={each.weather[0].description} 
                                                              eachDay={i + 1}
                                                              idOfWeatherIcon = {each.weather[0].id}
-                                                             key={i + 1}/>})} else {content = <Spinner animation="border" className='spinner'/>}
+                                                             key={i + 1}/>})} else if(!this.state.error)
+                                                            {content = <Spinner animation="border" className='spinner'/>} else {
+                                                            content = <p1>Error with loading: {this.state.error.toString()}</p1>
+                                                            }
         console.log(this.state.APIData)
         return (
                 <div className='weekForecast'>
