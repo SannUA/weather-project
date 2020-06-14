@@ -13,7 +13,7 @@ const Forecast = (props) => {
             <TodayForecast ChosenTown= {props.ChosenTown}/>
             <WeekForecast ChosenTown= {props.ChosenTown}/>
         </div>
-    )
-}
+    );
+};
 
 export default Forecast;

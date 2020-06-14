@@ -20,26 +20,26 @@ import veryClouds from '../../../pic/very_clouds.png';
 
 const Image = (props) => {
     let picSrc;
-    if (props.idOfWeatherIcon < 312 && props.idOfWeatherIcon > 299) {picSrc = lightRain}
-    else if (props.idOfWeatherIcon < 322 && props.idOfWeatherIcon > 311) {picSrc = rain}
-    else if (props.idOfWeatherIcon === 500 || props.idOfWeatherIcon === 501) {picSrc = lightRain}
-    else if (props.idOfWeatherIcon === 502 || (props.idOfWeatherIcon > 511 && props.idOfWeatherIcon < 532)) {picSrc = rain}
-    else if (props.idOfWeatherIcon === 503 || props.idOfWeatherIcon === 504) {picSrc = heavyRain}
-    else if (props.idOfWeatherIcon === 800) {picSrc = sunny}
-    else if (props.idOfWeatherIcon === 801 || props.idOfWeatherIcon === 802) {picSrc = fewClouds}
-    else if (props.idOfWeatherIcon === 803) {picSrc = clouds}
-    else if (props.idOfWeatherIcon === 804) {picSrc = veryClouds}
-    else if (props.idOfWeatherIcon < 233 && props.idOfWeatherIcon > 199) {picSrc = thunderstorm}
-    else if (props.idOfWeatherIcon < 623 && props.idOfWeatherIcon > 599) {picSrc = snow}
-    else if (props.idOfWeatherIcon === 511) {picSrc = freezingRain}
-    else if (props.idOfWeatherIcon === 771 || props.idOfWeatherIcon === 781) {picSrc = tornadoHurricane}
+    if (props.idOfWeatherIcon < 312 && props.idOfWeatherIcon > 299) {picSrc = lightRain;}
+    else if (props.idOfWeatherIcon < 322 && props.idOfWeatherIcon > 311) {picSrc = rain;}
+    else if (props.idOfWeatherIcon === 500 || props.idOfWeatherIcon === 501) {picSrc = lightRain;}
+    else if (props.idOfWeatherIcon === 502 || (props.idOfWeatherIcon > 511 && props.idOfWeatherIcon < 532)) {picSrc = rain;}
+    else if (props.idOfWeatherIcon === 503 || props.idOfWeatherIcon === 504) {picSrc = heavyRain;}
+    else if (props.idOfWeatherIcon === 800) {picSrc = sunny;}
+    else if (props.idOfWeatherIcon === 801 || props.idOfWeatherIcon === 802) {picSrc = fewClouds;}
+    else if (props.idOfWeatherIcon === 803) {picSrc = clouds;}
+    else if (props.idOfWeatherIcon === 804) {picSrc = veryClouds;}
+    else if (props.idOfWeatherIcon < 233 && props.idOfWeatherIcon > 199) {picSrc = thunderstorm;}
+    else if (props.idOfWeatherIcon < 623 && props.idOfWeatherIcon > 599) {picSrc = snow;}
+    else if (props.idOfWeatherIcon === 511) {picSrc = freezingRain;}
+    else if (props.idOfWeatherIcon === 771 || props.idOfWeatherIcon === 781) {picSrc = tornadoHurricane;}
     else if (props.idOfWeatherIcon === 701 || props.idOfWeatherIcon === 711 || 
-             props.idOfWeatherIcon === 721 || props.idOfWeatherIcon === 741) {picSrc = mist}
+             props.idOfWeatherIcon === 721 || props.idOfWeatherIcon === 741) {picSrc = mist;}
     else if (props.idOfWeatherIcon === 731 || props.idOfWeatherIcon === 751 ||
-             props.idOfWeatherIcon === 761 || props.idOfWeatherIcon === 762) {picSrc = dust}
+             props.idOfWeatherIcon === 761 || props.idOfWeatherIcon === 762) {picSrc = dust;}
     return (
         <img src={picSrc} alt='dayPic' className='littlePic' />
-    )
-}
+    );
+};
 
 export default Image;

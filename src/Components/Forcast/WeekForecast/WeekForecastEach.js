@@ -13,13 +13,13 @@ const WeekForecastEach = (props) => {
     let eachDateOfWeek = date + props.eachDay; 
     if (eachDateOfWeek > 31 && months31Days.find(each => each === months[month])) { 
         month += 1;
-        eachDateOfWeek -= 31 } else 
+        eachDateOfWeek -= 31; } else 
     if (eachDateOfWeek > 30 && months30Days.find(each => each === months[month])) { 
         month += 1;
-        eachDateOfWeek -= 30 } else 
+        eachDateOfWeek -= 30; } else 
     if (eachDateOfWeek > 28 && months[month] === "Feb") { 
           month += 1;
-          eachDateOfWeek -= 28} 
+          eachDateOfWeek -= 28;} 
 
     return(<div className='each'>
 <h2 className ='date'>{eachDateOfWeek + ' ' + months[month]}</h2>
@@ -32,7 +32,7 @@ const WeekForecastEach = (props) => {
         </div>
         </div>
         
-    )
-}
+    );
+};
 
 export default WeekForecastEach;

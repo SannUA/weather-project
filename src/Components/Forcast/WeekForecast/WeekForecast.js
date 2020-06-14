@@ -15,7 +15,6 @@ class WeekForecast extends React.Component {
     componentDidMount() {
         fetch('https://api.openweathermap.org/data/2.5/onecall?lat=50.4333&lon=30.5167&units=metric&exclude=current,hourly,minutely&appid=6fe5d797611fe6614d7e1fe142694059').then(res => res.json()).then(
           (result) => {
-              console.log(result)
             this.setState({
               isLoaded: true,
               APIData: result.daily.slice(1)
@@ -27,7 +26,7 @@ class WeekForecast extends React.Component {
               error
             });
           }
-        )
+        );
         }
 
     componentDidUpdate(prevProps) {
@@ -60,7 +59,7 @@ class WeekForecast extends React.Component {
                         error
                       });
                     }
-                  )
+                  );
               
             }
           }
@@ -73,11 +72,10 @@ class WeekForecast extends React.Component {
                                                              description={each.weather[0].description} 
                                                              eachDay={i + 1}
                                                              idOfWeatherIcon = {each.weather[0].id}
-                                                             key={i + 1}/>})} else if(!this.state.error)
-                                                            {content = <Spinner animation="border" className='spinner'/>} else {
-                                                            content = <p1>Error with loading: {this.state.error.toString()}</p1>
+                                                             key={i + 1}/>;});} else if(!this.state.error)
+                                                            {content = <Spinner animation="border" className='spinner'/>;} else {
+                                                            content = <p1>Error with loading: {this.state.error.toString()}</p1>;
                                                             }
-        console.log(this.state.APIData)
         return (
                 <div className='weekForecast'>
                     <h3 className='h3'>Week Forecast</h3>
@@ -85,7 +83,7 @@ class WeekForecast extends React.Component {
                     {content}
                     </div>
                 </div>
-        )
+        );
     }
 
 }

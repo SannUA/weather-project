@@ -28,7 +28,7 @@ class TodayForecast extends React.Component {
             error
           });
         }
-      )
+      );
       }
 
       componentDidUpdate(prevProps) {
@@ -61,7 +61,7 @@ class TodayForecast extends React.Component {
                     error
                   });
                 }
-              )
+              );
           
         }
       }
@@ -80,8 +80,8 @@ class TodayForecast extends React.Component {
             <OnePicSun sunrise={this.state.APIData.sunrise} sunset={this.state.APIData.sunset} isLoaded={this.state.isLoaded} error={this.state.error}/>
                 </div>
             
-        )
+        );
     }
 }
 
-export default TodayForecast
+export default TodayForecast;

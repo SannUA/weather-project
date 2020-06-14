@@ -14,7 +14,7 @@ const Footer = () => {
             </ul>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Footer;

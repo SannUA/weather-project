@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Header from '../Components/Header/Header';
-import Forecast from '../Components/Forcast/Forecast'
+import Forecast from '../Components/Forcast/Forecast';
 
 import Footer from '../Components/Footer/Footer';
 import './Backgrounds.css';
@@ -19,13 +19,13 @@ class MainPage extends Component {
     
 
     townChengingHandler(town){
-        this.setState({ChosenTown: town})
+        this.setState({ChosenTown: town});
     }
     render() {
         let style = 'townKiev';
-        if (this.state.ChosenTown === 'Kharkov') {style = 'townKharkov'}
-        if (this.state.ChosenTown === 'Odessa') {style = 'townOdessa'}
-        if (this.state.ChosenTown === 'Lviv') {style = 'townLviv'}
+        if (this.state.ChosenTown === 'Kharkov') {style = 'townKharkov';}
+        if (this.state.ChosenTown === 'Odessa') {style = 'townOdessa';}
+        if (this.state.ChosenTown === 'Lviv') {style = 'townLviv';}
                 
                
     
@@ -61,7 +61,7 @@ class MainPage extends Component {
         
         
         
-        )
+        );
     }
 }
 

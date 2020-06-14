@@ -6,12 +6,12 @@ import './OnePic.css';
 
 const OnePicTemp = (props) => {
 
-    let content
+    let content;
     if (props.error) {
         content = <div className='onePicError'>Error: {props.error.message}</div>;
       } else if (!props.isLoaded) {
         content =  <Spinner animation="border" className='spinner'/>;
-      } else {content = <p className='par'>{props.temp.toFixed(1)}°C</p>}
+      } else {content = <p className='par'>{props.temp.toFixed(1)}°C</p>;}
 
     return (
         <div className='onePic'>
@@ -19,7 +19,7 @@ const OnePicTemp = (props) => {
             {content}
             
         </div>
-    )
-}
+    );
+};
 
 export default OnePicTemp;
