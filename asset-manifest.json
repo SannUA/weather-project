@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/weather-project/static/css/main.14bd6009.chunk.css",
-    "main.js": "/weather-project/static/js/main.906a922d.chunk.js",
-    "main.js.map": "/weather-project/static/js/main.906a922d.chunk.js.map",
-    "runtime-main.js": "/weather-project/static/js/runtime-main.065b3060.js",
-    "runtime-main.js.map": "/weather-project/static/js/runtime-main.065b3060.js.map",
-    "static/js/2.4d2e1827.chunk.js": "/weather-project/static/js/2.4d2e1827.chunk.js",
-    "static/js/2.4d2e1827.chunk.js.map": "/weather-project/static/js/2.4d2e1827.chunk.js.map",
+    "main.css": "/weather-project/static/css/main.a0f5e196.chunk.css",
+    "main.js": "/weather-project/static/js/main.5284ff08.chunk.js",
+    "main.js.map": "/weather-project/static/js/main.5284ff08.chunk.js.map",
+    "runtime-main.js": "/weather-project/static/js/runtime-main.5270a450.js",
+    "runtime-main.js.map": "/weather-project/static/js/runtime-main.5270a450.js.map",
+    "static/js/2.e148ded5.chunk.js": "/weather-project/static/js/2.e148ded5.chunk.js",
+    "static/js/2.e148ded5.chunk.js.map": "/weather-project/static/js/2.e148ded5.chunk.js.map",
     "index.html": "/weather-project/index.html",
-    "precache-manifest.2c5903f240e590a062c8ae54ed2c68f4.js": "/weather-project/precache-manifest.2c5903f240e590a062c8ae54ed2c68f4.js",
+    "precache-manifest.077922799aea009120908a074abb0318.js": "/weather-project/precache-manifest.077922799aea009120908a074abb0318.js",
     "service-worker.js": "/weather-project/service-worker.js",
-    "static/css/main.14bd6009.chunk.css.map": "/weather-project/static/css/main.14bd6009.chunk.css.map",
-    "static/js/2.4d2e1827.chunk.js.LICENSE.txt": "/weather-project/static/js/2.4d2e1827.chunk.js.LICENSE.txt",
+    "static/css/main.a0f5e196.chunk.css.map": "/weather-project/static/css/main.a0f5e196.chunk.css.map",
+    "static/js/2.e148ded5.chunk.js.LICENSE.txt": "/weather-project/static/js/2.e148ded5.chunk.js.LICENSE.txt",
     "static/media/Backgrounds.css": "/weather-project/static/media/Odessa.d93aa828.jpg",
     "static/media/Tornado_hurricane.png": "/weather-project/static/media/Tornado_hurricane.ede75f3f.png",
     "static/media/drops.png": "/weather-project/static/media/drops.367489fd.png",
@@ -32,9 +32,9 @@
     "static/media/wind.png": "/weather-project/static/media/wind.839a9df8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.065b3060.js",
-    "static/js/2.4d2e1827.chunk.js",
-    "static/css/main.14bd6009.chunk.css",
-    "static/js/main.906a922d.chunk.js"
+    "static/js/runtime-main.5270a450.js",
+    "static/js/2.e148ded5.chunk.js",
+    "static/css/main.a0f5e196.chunk.css",
+    "static/js/main.5284ff08.chunk.js"
   ]
 }
