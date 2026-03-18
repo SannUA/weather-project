@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/weather-project/static/css/main.99947343.chunk.css",
-    "main.js": "/weather-project/static/js/main.11660eec.chunk.js",
-    "main.js.map": "/weather-project/static/js/main.11660eec.chunk.js.map",
+    "main.css": "/weather-project/static/css/main.14bd6009.chunk.css",
+    "main.js": "/weather-project/static/js/main.906a922d.chunk.js",
+    "main.js.map": "/weather-project/static/js/main.906a922d.chunk.js.map",
     "runtime-main.js": "/weather-project/static/js/runtime-main.065b3060.js",
     "runtime-main.js.map": "/weather-project/static/js/runtime-main.065b3060.js.map",
     "static/js/2.4d2e1827.chunk.js": "/weather-project/static/js/2.4d2e1827.chunk.js",
     "static/js/2.4d2e1827.chunk.js.map": "/weather-project/static/js/2.4d2e1827.chunk.js.map",
     "index.html": "/weather-project/index.html",
-    "precache-manifest.f7707bb4260ce9480f8da29704cf8f3e.js": "/weather-project/precache-manifest.f7707bb4260ce9480f8da29704cf8f3e.js",
+    "precache-manifest.2c5903f240e590a062c8ae54ed2c68f4.js": "/weather-project/precache-manifest.2c5903f240e590a062c8ae54ed2c68f4.js",
     "service-worker.js": "/weather-project/service-worker.js",
-    "static/css/main.99947343.chunk.css.map": "/weather-project/static/css/main.99947343.chunk.css.map",
+    "static/css/main.14bd6009.chunk.css.map": "/weather-project/static/css/main.14bd6009.chunk.css.map",
     "static/js/2.4d2e1827.chunk.js.LICENSE.txt": "/weather-project/static/js/2.4d2e1827.chunk.js.LICENSE.txt",
     "static/media/Backgrounds.css": "/weather-project/static/media/Odessa.d93aa828.jpg",
     "static/media/Tornado_hurricane.png": "/weather-project/static/media/Tornado_hurricane.ede75f3f.png",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.065b3060.js",
     "static/js/2.4d2e1827.chunk.js",
-    "static/css/main.99947343.chunk.css",
-    "static/js/main.11660eec.chunk.js"
+    "static/css/main.14bd6009.chunk.css",
+    "static/js/main.906a922d.chunk.js"
   ]
 }
